@@ -1,0 +1,140 @@
+{
+  "gymName": "FitZone Fitness Club",
+  "currency": "USD",
+  "lastUpdated": "2025-10-22",
+  "pricingOptions": [
+    {
+      "id": 1,
+      "planName": "Basic Plan",
+      "planType": "Individual",
+      "price": 29.99,
+      "billingCycle": "Monthly",
+      "duration": "1 Month",
+      "discount": 0,
+      "taxPercent": 5,
+      "totalPrice": 31.49,
+      "description": "Perfect for beginners looking to start their fitness journey with essential facilities.",
+      "features": [
+        "Access to gym equipment",
+        "Locker room access",
+        "1 free fitness consultation"
+      ],
+      "trainerAccess": "Limited",
+      "groupClasses": false,
+      "openingHours": "6:00 AM - 10:00 PM",
+      "locations": ["Downtown", "Uptown"],
+      "perks": ["Cancel anytime", "No joining fee"],
+      "imageUrl": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=900&q=80",
+      "recommended": false
+    },
+    {
+      "id": 2,
+      "planName": "Standard Plan",
+      "planType": "Individual",
+      "price": 74.99,
+      "billingCycle": "Quarterly",
+      "duration": "3 Months",
+      "discount": 10,
+      "taxPercent": 5,
+      "totalPrice": 78.74,
+      "description": "A balanced plan offering access to all gym areas and group classes.",
+      "features": [
+        "Access to all gym equipment",
+        "Locker & shower access",
+        "3 personal training sessions",
+        "Group fitness classes"
+      ],
+      "trainerAccess": "3 Sessions Included",
+      "groupClasses": true,
+      "openingHours": "24/7",
+      "locations": ["Downtown", "Uptown", "City Mall"],
+      "perks": ["10% discount on supplements", "Flexible upgrade options"],
+      "imageUrl": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80",
+      "recommended": true
+    },
+    {
+      "id": 3,
+      "planName": "Premium Plan",
+      "planType": "Individual + Family",
+      "price": 249.99,
+      "billingCycle": "Yearly",
+      "duration": "12 Months",
+      "discount": 20,
+      "taxPercent": 5,
+      "totalPrice": 262.49,
+      "description": "For fitness enthusiasts who want full access to every facility and premium benefits.",
+      "features": [
+        "24/7 gym access",
+        "Unlimited group classes",
+        "Weekly personal training",
+        "Nutrition and wellness tracking",
+        "Sauna and spa access"
+      ],
+      "trainerAccess": "Unlimited",
+      "groupClasses": true,
+      "openingHours": "24/7",
+      "locations": ["Downtown", "Uptown", "City Mall", "Beachside"],
+      "perks": [
+        "Free gym merchandise",
+        "Priority support",
+        "Freeze membership for 2 months",
+        "Family add-on discount"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1583454110551-21f2fa2a95d8?auto=format&fit=crop&w=900&q=80",
+      "recommended": true
+    },
+    {
+      "id": 4,
+      "planName": "Student Plan",
+      "planType": "Student",
+      "price": 19.99,
+      "billingCycle": "Monthly",
+      "duration": "1 Month",
+      "discount": 15,
+      "taxPercent": 5,
+      "totalPrice": 20.99,
+      "description": "Special affordable plan for students to stay active while managing studies.",
+      "features": [
+        "Access to gym equipment",
+        "Student-only group sessions",
+        "1 fitness assessment"
+      ],
+      "trainerAccess": "Limited",
+      "groupClasses": true,
+      "openingHours": "6:00 AM - 9:00 PM",
+      "locations": ["University Branch", "Downtown"],
+      "perks": ["Student ID required", "Upgrade anytime"],
+      "imageUrl": "https://images.unsplash.com/photo-1598970434795-0c54fe7c0648?auto=format&fit=crop&w=900&q=80",
+      "recommended": false
+    },
+    {
+      "id": 5,
+      "planName": "Corporate Plan",
+      "planType": "Business Group",
+      "price": 999.99,
+      "billingCycle": "Yearly",
+      "duration": "12 Months",
+      "discount": 25,
+      "taxPercent": 5,
+      "totalPrice": 1049.99,
+      "description": "Ideal for organizations promoting employee wellness with bulk membership benefits.",
+      "features": [
+        "Access for up to 10 employees",
+        "Personalized health workshops",
+        "Corporate fitness challenges",
+        "Priority booking for all classes"
+      ],
+      "trainerAccess": "On-demand trainer",
+      "groupClasses": true,
+      "openingHours": "24/7",
+      "locations": ["All branches"],
+      "perks": [
+        "Custom corporate branding",
+        "Free health seminars",
+        "Quarterly progress reports"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?auto=format&fit=crop&w=900&q=80",
+      "recommended": true
+    }
+  ]
+}
